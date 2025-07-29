@@ -29,7 +29,7 @@
 
 ## 系統流程圖
 <p align="center">
-  <img src="docs/流程圖.png" alt="流程圖" width="150%">
+  <img src="docs/流程圖.png" alt="流程圖" width="50%">
 </p>
 
 ## 技術特色
