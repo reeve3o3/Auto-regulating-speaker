@@ -4,7 +4,7 @@
 
 ## 專案簡介
 
-音幻追蹤是一個基於UWB（Ultra-Wideband）定位技術的智慧音響追蹤系統。系統能夠自動偵測使用者位置，並智慧調整音響角度和音量，提供最佳的聆聽體驗。
+音幻追蹤是一個基於UWB（Ultra-Wideband）定位技術的追蹤音響系統以及可對其調控的手機APP，系統能夠透過UWB標籤得知使用者位置，並自動調整音響角度和音量，提供最佳的聆聽體驗。
 
 ## 主要功能
 
@@ -30,41 +30,6 @@
 - Flutter跨平台移動應用
 - Flask RESTful API後端
 
-## 快速開始
-
-### 後端設置
-
-1. 進入backend目錄
-```bash
-cd backend
-```
-
-2. 安裝Python依賴
-```bash
-pip install -r requirements.txt
-```
-
-3. 運行Flask服務
-```bash
-python app.py
-```
-
-### 移動應用程式設置
-
-1. 進入mobile_app目錄
-```bash
-cd mobile_app
-```
-
-2. 安裝Flutter依賴
-```bash
-flutter pub get
-```
-
-3. 運行應用程式
-```bash
-flutter run
-```
 
 ## 硬體需求
 
