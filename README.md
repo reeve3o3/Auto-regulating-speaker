@@ -1,6 +1,7 @@
 # 音幻追蹤 (Sound Phantom Tracking)
 
-第21屆全國電子設計創意競賽作品 - 佳作獲獎
+第21屆全國電子設計創意競賽作品 - 佳作獲獎  
+**Auto-regulating Speaker System**
 
 ## 專案簡介
 
