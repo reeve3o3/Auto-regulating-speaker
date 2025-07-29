@@ -2,7 +2,7 @@
 
 第21屆全國電子設計創意競賽作品 - 佳作獲獎
 <p align="center">
-  <img src="docs/2025全國電子設計創意競賽佳作.jpg" alt="佳作獎狀" width="60%">
+  <img src="docs/2025全國電子設計創意競賽佳作.jpg" alt="佳作獎狀" width="50%">
 </p>
 
 
@@ -10,7 +10,7 @@
 
 音幻追蹤是一個基於UWB（Ultra-Wideband）定位技術的追蹤音響系統以及可對其調控的手機APP，系統能夠透過UWB標籤得知使用者位置，並自動調整音響角度和音量，提供最佳的聆聽體驗。
 <p align="center">
-  <img src="docs/音響圖.png" alt="音響圖" width="75%">
+  <img src="docs/音響圖.png" alt="音響圖" width="50%">
 </p>
 
 ## 主要功能
