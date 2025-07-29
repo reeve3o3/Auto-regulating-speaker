@@ -42,6 +42,16 @@ mobile_app/.packages
 mobile_app/.pub-cache/
 mobile_app/.pub/
 mobile_app/pubspec.lock
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/.metadata
+mobile_app/android/
+mobile_app/ios/
+mobile_app/linux/
+mobile_app/macos/
+mobile_app/web/
+mobile_app/windows/
+mobile_app/test/
 
 # OS
 .DS_Store

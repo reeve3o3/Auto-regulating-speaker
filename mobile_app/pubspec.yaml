@@ -1,34 +1,37 @@
-name: uwb_control_app
-description: 音幻追蹤 - UWB音響控制系統移動應用程式
+name: auto_regulating_speaker
+description: "音幻追蹤 - Auto-regulating Speaker System with UWB positioning technology"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ^3.6.1
+
 
 dependencies:
   flutter:
     sdk: flutter
-  
-  # HTTP 請求
+  shared_preferences: ^2.5.2
+  volume_controller: ^2.0.7
   http: ^1.1.0
-  
-  # 本地存儲
-  shared_preferences: ^2.2.2
-  
-  # UI 組件
-  cupertino_icons: ^1.0.2
+
+
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+
+
+  flutter_lints: ^5.0.0
 
 flutter:
+
+
   uses-material-design: true
 
-  # 添加資源文件
   assets:
     - lib/icons/
