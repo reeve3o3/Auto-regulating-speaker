@@ -44,14 +44,15 @@ mobile_app/.pub/
 mobile_app/pubspec.lock
 mobile_app/.flutter-plugins
 mobile_app/.flutter-plugins-dependencies
-mobile_app/.metadata
-mobile_app/android/
-mobile_app/ios/
-mobile_app/linux/
-mobile_app/macos/
-mobile_app/web/
-mobile_app/windows/
-mobile_app/test/
+mobile_app/ios/Flutter/Flutter.framework
+mobile_app/ios/Flutter/Flutter.podspec
+mobile_app/ios/Runner.xcworkspace/
+mobile_app/android/.gradle/
+mobile_app/android/app/.cxx/
+mobile_app/android/local.properties
+mobile_app/linux/flutter/ephemeral/
+mobile_app/macos/Flutter/ephemeral/
+mobile_app/windows/flutter/ephemeral/
 
 # OS
 .DS_Store

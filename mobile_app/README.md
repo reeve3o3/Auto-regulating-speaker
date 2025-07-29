@@ -1,82 +1,16 @@
-# Auto-regulating Speaker - Mobile App
+# single_speaker_app
 
-音幻追蹤系統的Flutter移動應用程式，提供直觀的用戶界面來控制UWB音響追蹤系統。
+A new Flutter project.
 
-## 功能特點
+## Getting Started
 
-- **三種控制模式**：自動、自定義、手動模式切換
-- **實時UWB數據顯示**：距離、角度、音量即時監控
-- **智慧音量控制**：根據距離自動調整或手動設定
-- **自定義位置管理**：儲存和管理常用位置設定
-- **伺服馬達控制**：自動追蹤或手動角度控制
-- **自動服務器發現**：智慧搜尋並連接後端服務
+This project is a starting point for a Flutter application.
 
-## 控制模式
+A few resources to get you started if this is your first Flutter project:
 
-### 🤖 自動模式
-- 系統根據UWB檢測到的距離自動調整音量
-- 伺服馬達自動追蹤目標位置
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-### 🎯 自定義模式  
-- 管理預設位置和對應的音量設定
-- 系統自動匹配最接近的位置配置
-
-### 🎛️ 手動模式
-- 完全手動控制音量 (0-100%)
-- 可切換伺服馬達自動/手動模式
-- 手動設定伺服馬達角度 (30-150°)
-
-## 快速開始
-
-### 安裝依賴
-```bash
-flutter pub get
-```
-
-### 運行應用程式
-```bash
-flutter run
-```
-
-## 技術棧
-
-- **Flutter 3.6+** - 跨平台UI框架
-- **HTTP** - 與後端API通訊
-- **SharedPreferences** - 本地數據存儲
-- **Volume Controller** - 系統音量控制
-- **Material Design** - 現代化UI設計
-
-## 網路配置
-
-應用程式會自動搜尋以下IP地址的後端服務：
-- 192.168.1.216
-- 192.168.0.123  
-- 192.168.1.162
-- 192.168.160.241
-- 172.20.10.2
-- 10.0.0.2
-
-## API端點
-
-- `GET /pi-ip` - 獲取服務器IP
-- `GET /current-data` - 獲取當前UWB數據
-- `POST /mode` - 設定工作模式
-- `POST /volume` - 設定音量
-- `POST /servo/tracking` - 設定伺服馬達追蹤模式
-- `POST /servo/angle` - 設定伺服馬達角度
-- `GET /positions` - 獲取自定義位置
-- `POST /position` - 新增自定義位置
-- `DELETE /position/<name>` - 刪除自定義位置
-
-## 專案結構
-
-```
-lib/
-├── main.dart           # 主應用程式和UI
-├── icons/             # 應用圖標資源
-└── (其他Flutter文件)
-```
-
-## 獲獎作品
-
-🏆 第21屆全國電子設計創意競賽 - 佳作獲獎作品
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
