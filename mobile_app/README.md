@@ -1,16 +1,56 @@
-# single_speaker_app
+# Mobile App - Flutter 應用程式
 
-A new Flutter project.
+跨平台的Flutter移動應用程式，提供直觀的用戶界面來控制音幻追蹤系統。
 
-## Getting Started
+## 功能特點
 
-This project is a starting point for a Flutter application.
+- 三種控制模式切換
+- 實時UWB數據顯示
+- 音量控制滑桿
+- 自定義位置管理
+- 伺服馬達控制
+- 自動服務器發現
 
-A few resources to get you started if this is your first Flutter project:
+## 主要界面
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 自動模式
+- 顯示當前UWB數據
+- 系統根據距離自動調整音量
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 自定義模式
+- 管理預設位置
+- 自動匹配最接近的位置設定
+
+### 手動模式
+- 手動控制音量
+- 伺服馬達角度控制
+- 自動/手動追蹤切換
+
+## 安裝與運行
+
+1. 安裝Flutter依賴
+```bash
+flutter pub get
+```
+
+2. 運行應用程式
+```bash
+flutter run
+```
+
+## 技術棧
+
+- Flutter 3.x
+- HTTP 通訊
+- SharedPreferences 本地存儲
+- Material Design UI
+
+## 網路設定
+
+應用程式會自動搜尋以下IP地址的後端服務：
+- 192.168.1.216
+- 192.168.0.123
+- 192.168.1.162
+- 192.168.160.241
+- 172.20.10.2
+- 10.0.0.2
