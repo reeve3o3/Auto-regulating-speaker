@@ -31,13 +31,6 @@
 
 ## 系統架構
 
-```
-音幻追蹤/
-├── backend/          # Python Flask 後端服務
-├── mobile_app/       # Flutter 移動應用程式
-├── docs/            # 文件和圖片
-└── README.md        # 專案說明
-```
 
 ## 技術特色
 
